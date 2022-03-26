@@ -197,7 +197,7 @@ if (selectedTheme) {
   document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
     darkTheme
   );
-  themeButton.classList[selectedIcon === "uil-moon" ? "add" : "remove"](
+  themeButton.classList[selectedIcon === "uil-sun" ? "add" : "remove"](
     iconTheme
   );
 }
