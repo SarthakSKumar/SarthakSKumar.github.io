@@ -10,9 +10,7 @@
   <img alt="Mockup" src="https://user-images.githubusercontent.com/64855541/148080556-ec9d5062-1092-4bd4-ba12-82a153e32985.png" />
 </div>
 
-<br/>
-
-<a href="https://github.com/SarthakSKumar/sarthakskumar.github.io"><img src="https://sloc.xyz/github/SarthakSKumar/sarthakskumar.github.io" alt="Total lines"></a>
+<br>
 <a href="https://github.com/SarthakSKumar/sarthakskumar.github.io"><img src="https://visitor-badge.laobi.icu/badge?page_id=SarthakSKumar/sarthakskumar.github.io" alt="Number of Visitors"></a>
 <a href="https://github.com/SarthakSKumar/sarthakskumar.github.io/stargazers"><img src="https://img.shields.io/github/stars/SarthakSKumar/sarthakskumar.github.io" alt="github stars"></a>
 <a href="https://github.com/SarthakSKumar/sarthakskumar.github.io/network/members"><img src="https://img.shields.io/github/forks/sarthakskumar/sarthakskumar.github.io" alt="github forks"></a>
