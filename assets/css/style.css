@@ -3,19 +3,19 @@
 :root {
   --header-height: 3rem;
 
-  --hue-color: 250;
-  --first-color: hsl(var(--hue-color), 69%, 61%); /* #6e57e0 */
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%); /* #7d6bd6 */
+  --hue-color: 213;
+  --first-color: hsla(41, 100%, 50%, 0.89); /* #6e57e0 */
+  --first-color-second: hsla(276, 66%, 36%, 0.39);
+  --first-color-alt: hsla(27, 100%, 50%, 0.753); /* #7d6bd6 */
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%); /* #c2b6fc */
-  --title-color: hsl(var(--hue-color), 8%, 15%);
-  --text-color: hsl(var(--hue-color), 8%, 45%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
-  --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color), 60%, 99%);
-  --container-color: #fff;
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+  --title-color: #edede8;
+  --text-color: #edede8;
+  --text-color-light: #edede8;
+  --input-color:#011835;
+  --body-color: #010f20;
+  --container-color: #000;
+  --scroll-bar-color: #000;
+  --scroll-thumb-color: #edede8;
 
   --body-font: "Poppins", sans-serif;
 
@@ -53,21 +53,23 @@
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
-    --small-font-size: 0.875rem;
+    --small-font-size: 0.900rem;
     --smaller-font-size: 0.813rem;
   }
 }
 
 /* Variables Dark Theme */
 body.dark-theme {
-  --first-color-second: hsl(var(--hue-color), 30%, 8%);
-  --title-color: hsl(var(--hue-color), 8%, 95%);
-  --text-color: hsl(var(--hue-color), 8%, 75%);
-  --input-color: hsl(var(--hue-color), 29%, 16%);
-  --body-color: hsl(var(--hue-color), 28%, 12%);
-  --container-color: hsl(var(--hue-color), 29%, 16%);
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+  --first-color: hsl(0, 93%, 45%);
+  --first-color-second: hsl(213, 94%, 6%);
+  --title-color: #000;
+  --text-color: #000;
+  --text-color-light: #000000;
+  --input-color: hsl(0, 0%, 93%);
+  --body-color: #fff;
+  --container-color: #fff;
+  --scroll-bar-color: #fff;
+  --scroll-thumb-color: hsl(213, 94%, 6%);
 }
 
 /* Button Dark/Light */
