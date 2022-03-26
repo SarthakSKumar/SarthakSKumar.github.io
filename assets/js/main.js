@@ -77,29 +77,47 @@ skillHeaderArr.forEach((element, idx) => {
 // QUALIFICATION TABS
 let education = document.getElementById("education");
 let work = document.getElementById("work");
+let volunteering = document.getElementById("volunteering");
 let educationheader = document.getElementById("educationheader");
 let workheader = document.getElementById("workheader");
-workheader.style.color = "var(--first-colour)";
+let volunteeringheader = document.getElementById("volunteeringheader");
 
 educationheader.addEventListener("click", () => {
   let condition1 = work.classList.contains("qualification-inactive");
-  if (!condition1) {
+  let condition2 = volunteering.classList.contains("qualification-inactive");
+  if (!(condition1 && condition2)) {
     education.classList.remove("qualification-inactive");
     work.classList.add("qualification-inactive");
+    volunteering.classList.add("qualification-inactive");
     workheader.style.color = "var(--text-colour)";
+    volunteeringheader.style.color = "var(--text-colour)";
     educationheader.style.color = "var(--first-colour)";
   }
 });
 workheader.addEventListener("click", () => {
-  let condition2 = education.classList.contains("qualification-inactive");
-  if (!condition2) {
+  let condition3 = education.classList.contains("qualification-inactive");
+  let condition4 = volunteering.classList.contains("qualification-inactive");
+  if (!(condition3 && condition4)) {
     work.classList.remove("qualification-inactive");
     education.classList.add("qualification-inactive");
+    volunteering.classList.add("qualification-inactive");
     educationheader.style.color = "var(--text-colour)";
     workheader.style.color = "var(--first-colour)";
+    volunteeringheader.style.color = "var(--text-colour)";
   }
 });
-
+volunteeringheader.addEventListener("click", () => {
+  let condition5 = education.classList.contains("qualification-inactive");
+  let condition6 = work.classList.contains("qualification-inactive");
+  if (!(condition5 && condition6)) {
+    volunteering.classList.remove("qualification-inactive");
+    education.classList.add("qualification-inactive");
+    work.classList.add("qualification-inactive");
+    educationheader.style.color = "var(--text-colour)";
+    volunteeringheader.style.color = "var(--first-colour)";
+    workheader.style.color = "var(--text-colour)";
+  }
+});
 // PORTFOLIO SWIPER
 let swiper = new Swiper(".mySwiper", {
   cssMode: true,
