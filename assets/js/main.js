@@ -81,6 +81,9 @@ let volunteering = document.getElementById("volunteering");
 let educationheader = document.getElementById("educationheader");
 let workheader = document.getElementById("workheader");
 let volunteeringheader = document.getElementById("volunteeringheader");
+education.classList.add("qualification-active");
+work.classList.add("qualification-inactive");
+volunteering.classList.add("qualification-inactive");
 
 educationheader.addEventListener("click", () => {
   let condition1 = work.classList.contains("qualification-inactive");
