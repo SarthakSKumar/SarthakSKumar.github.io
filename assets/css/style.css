@@ -13,8 +13,8 @@
   --text-color-light: #edede8;
   --input-color:#011835;
   --body-color: #010f20;
-  --container-color: #000;
-  --scroll-bar-color: #000;
+  --container-color: #010f20;
+  --scroll-bar-color: #010f20;
   --scroll-thumb-color: #edede8;
 
   --body-font: "Poppins", sans-serif;
@@ -61,15 +61,15 @@
 /* Variables Dark Theme */
 body.dark-theme {
   --first-color: hsl(0, 93%, 45%);
-  --first-color-second: hsl(213, 94%, 6%);
-  --title-color: #000;
-  --text-color: #000;
-  --text-color-light: #000000;
+  --first-color-second: #010f20;
+  --title-color: #010f20;
+  --text-color: #010f20;
+  --text-color-light: #010f20;
   --input-color: hsl(0, 0%, 93%);
-  --body-color: #fff;
-  --container-color: #fff;
-  --scroll-bar-color: #fff;
-  --scroll-thumb-color: hsl(213, 94%, 6%);
+  --body-color: #edede8;
+  --container-color: #edede8;
+  --scroll-bar-color: #edede8;
+  --scroll-thumb-color: #010f20;
 }
 
 /* Button Dark/Light */
