@@ -78,12 +78,17 @@ skillHeaderArr.forEach((element, idx) => {
 let education = document.getElementById("education");
 let work = document.getElementById("work");
 let volunteering = document.getElementById("volunteering");
+
 let educationheader = document.getElementById("educationheader");
 let workheader = document.getElementById("workheader");
 let volunteeringheader = document.getElementById("volunteeringheader");
+
 education.classList.add("qualification-active");
 work.classList.add("qualification-inactive");
 volunteering.classList.add("qualification-inactive");
+workheader.style.color = "var(--text-color)";
+volunteeringheader.style.color = "var(--text-color)";
+educationheader.style.color = "var(--first-color)";
 
 educationheader.addEventListener("click", () => {
   let condition1 = work.classList.contains("qualification-inactive");
@@ -92,9 +97,9 @@ educationheader.addEventListener("click", () => {
     education.classList.remove("qualification-inactive");
     work.classList.add("qualification-inactive");
     volunteering.classList.add("qualification-inactive");
-    workheader.style.color = "var(--text-colour)";
-    volunteeringheader.style.color = "var(--text-colour)";
-    educationheader.style.color = "var(--first-colour)";
+    workheader.style.color = "var(--text-color)";
+    volunteeringheader.style.color = "var(--text-color)";
+    educationheader.style.color = "var(--first-color)";
   }
 });
 workheader.addEventListener("click", () => {
@@ -104,9 +109,9 @@ workheader.addEventListener("click", () => {
     work.classList.remove("qualification-inactive");
     education.classList.add("qualification-inactive");
     volunteering.classList.add("qualification-inactive");
-    educationheader.style.color = "var(--text-colour)";
-    workheader.style.color = "var(--first-colour)";
-    volunteeringheader.style.color = "var(--text-colour)";
+    educationheader.style.color = "var(--text-color)";
+    workheader.style.color = "var(--first-color)";
+    volunteeringheader.style.color = "var(--text-color)";
   }
 });
 volunteeringheader.addEventListener("click", () => {
@@ -116,9 +121,9 @@ volunteeringheader.addEventListener("click", () => {
     volunteering.classList.remove("qualification-inactive");
     education.classList.add("qualification-inactive");
     work.classList.add("qualification-inactive");
-    educationheader.style.color = "var(--text-colour)";
-    volunteeringheader.style.color = "var(--first-colour)";
-    workheader.style.color = "var(--text-colour)";
+    educationheader.style.color = "var(--text-color)";
+    volunteeringheader.style.color = "var(--first-color)";
+    workheader.style.color = "var(--text-color)";
   }
 });
 // PORTFOLIO SWIPER
