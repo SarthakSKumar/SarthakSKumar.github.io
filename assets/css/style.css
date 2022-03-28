@@ -811,7 +811,6 @@ button {
   .home_content {
     grid-template-columns: max-content 1fr 1fr;
   }
-
   .home_data {
     grid-column: initial;
   }
@@ -840,7 +839,6 @@ button {
     margin-left: auto;
     margin-right: auto;
   }
-
   body {
     margin: 0;
   }
@@ -979,7 +977,6 @@ button {
   .footer_container {
     padding: 0;
   }
-
   .home_blob {
     width: 320px;
   }
