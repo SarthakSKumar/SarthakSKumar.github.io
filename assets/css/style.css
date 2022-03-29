@@ -60,7 +60,8 @@
 
 /* Variables Dark Theme */
 body.dark-theme {
-  --first-color: hsl(0, 93%, 45%);
+  --first-color: hsl(286, 93%, 17%);
+  --first-color-alt: hsla(290, 65%, 26%, 0.753);
   --first-color-second: #010f20;
   --title-color: #010f20;
   --text-color: #010f20;
@@ -378,7 +379,7 @@ button {
 /* ABOUT */
 .about_img {
   width: 200px;
-  border-radius: 0.5rem;
+  border-radius: 50%;
   justify-self: center;
   align-self: center;
 }
