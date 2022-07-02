@@ -4,14 +4,17 @@
   --header-height: 3rem;
 
   --hue-color: 213;
-  --first-color: hsla(41, 100%, 50%, 0.89); /* #6e57e0 */
+  --first-color: hsl(184deg 64% 72%);
+  /* #6e57e0 */
   --first-color-second: hsla(276, 66%, 36%, 0.39);
-  --first-color-alt: hsla(27, 100%, 50%, 0.753); /* #7d6bd6 */
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%); /* #c2b6fc */
+  --first-color-alt: hsl(192deg 64% 72%);
+  /* #7d6bd6 */
+  --first-color-lighter: hsl(213, 92%, 85%);
+  /* #c2b6fc */
   --title-color: #edede8;
   --text-color: #edede8;
   --text-color-light: #edede8;
-  --input-color:#011835;
+  --input-color: #011835;
   --body-color: #010f20;
   --container-color: #010f20;
   --scroll-bar-color: #010f20;
@@ -354,7 +357,7 @@ button {
 .button {
   display: inline-block;
   background-color: var(--first-color);
-  color: #fff;
+  color: var(--body-color);
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
@@ -598,7 +601,7 @@ button {
   right: -0.5rem;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets {
+.swiper-horizontal>.swiper-pagination-bullets {
   bottom: -2.5rem;
 }
 
@@ -681,7 +684,7 @@ button {
 }
 
 .footer_bg {
-  background-color: var(--first-color-second);
+  background-color: var(--first-color);
   padding: 2rem 0 3rem;
 }
 
@@ -704,11 +707,11 @@ button {
 .footer_subtitle,
 .footer_link,
 .footer_social {
-  color: #fff;
+  color: var(--body-color);
 }
 
 .footer_link:hover {
-  color: var(--first-color-lighter);
+  color: var(--body-color);
 }
 
 .footer_social {
@@ -717,7 +720,7 @@ button {
 }
 
 .footer_social:hover {
-  color: var(--first-color-lighter);
+  color: var(--body-color);
 }
 
 .footer_copy {
@@ -812,6 +815,7 @@ button {
   .home_content {
     grid-template-columns: max-content 1fr 1fr;
   }
+
   .home_data {
     grid-column: initial;
   }
@@ -840,6 +844,7 @@ button {
     margin-left: auto;
     margin-right: auto;
   }
+
   body {
     margin: 0;
   }
@@ -973,11 +978,13 @@ button {
 
 /* For large devices */
 @media screen and (min-width: 1024px) {
+
   .header,
   .main,
   .footer_container {
     padding: 0;
   }
+
   .home_blob {
     width: 320px;
   }
@@ -1002,7 +1009,7 @@ button {
     right: -3.5rem;
   }
 
-  .swiper-container-horizontal > .swiper-pagination-bullets {
+  .swiper-container-horizontal>.swiper-pagination-bullets {
     bottom: -4.5rem;
   }
 
@@ -1017,18 +1024,22 @@ button {
 
 /* Typewriter Effect*/
 @keyframes typing {
+
   0.0000%,
   27.3488% {
     content: "";
   }
+
   1.1395%,
   26.2093% {
     content: "Inn";
   }
+
   2.2791%,
   25.0698% {
     content: "Innovat";
   }
+
   3.4186%,
   23.9302% {
     content: "Innovation";
@@ -1038,30 +1049,37 @@ button {
   51.2791% {
     content: "";
   }
+
   31.9070%,
   50.1395% {
     content: "E";
   }
+
   33.0465%,
   49.0000% {
     content: "En";
   }
+
   34.1860%,
   47.8605% {
     content: "Ent";
   }
+
   35.3256%,
   46.7209% {
     content: "Entre";
   }
+
   36.4651%,
   45.5814% {
     content: "Entrepre";
   }
+
   37.6047%,
   44.4419% {
     content: "Entrepreneur";
   }
+
   38.7443%,
   43.3023% {
     content: "Entrepreneurship";
@@ -1071,42 +1089,52 @@ button {
   85.2093% {
     content: "";
   }
+
   55.8372%,
   84.0698% {
     content: "E";
   }
+
   56.9767%,
   82.9302% {
     content: "En";
   }
+
   58.1163%,
   81.7907% {
     content: "Eng";
   }
+
   59.2558%,
   80.6512% {
     content: "Engi";
   }
+
   60.3953%,
   79.5116% {
     content: "Engin";
   }
+
   61.5349%,
   78.3721% {
     content: "Engine";
   }
+
   62.6745%,
   77.2325% {
     content: "Enginee";
   }
+
   63.8141%,
   76.0929% {
     content: "Engineer";
   }
+
   64.9537%,
   74.9533% {
     content: "Engineeri";
   }
+
   66.0933%,
   73.8137% {
     content: "Engineering";
@@ -1114,10 +1142,12 @@ button {
 }
 
 @keyframes blink {
+
   0%,
   100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
@@ -1152,13 +1182,16 @@ button {
   }
 
   @keyframes sequencePopup {
+
     0%,
     100% {
       content: "Web";
     }
+
     25% {
       content: "Android";
     }
+
     50% {
       content: "Blockchain";
     }
