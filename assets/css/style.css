@@ -63,8 +63,8 @@
 
 /* Variables Dark Theme */
 body.dark-theme {
-  --first-color: hsl(325, 92%, 24%);
-  --first-color-alt: hsla(290, 65%, 26%, 0.753);
+  --first-color: hsl(325deg 98% 16%);
+  --first-color-alt: hsl(335deg 98% 22%);
   --first-color-second: #031833;
   --title-color: #010f20;
   --text-color: #010f20;
