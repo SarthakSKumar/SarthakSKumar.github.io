@@ -98,6 +98,7 @@ body.dark-theme {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
 }
 
 html {
@@ -110,6 +111,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+
 }
 
 h1,
