@@ -47,7 +47,7 @@
   <link rel="stylesheet" href="./assets/css/style.css" />
 
   <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon" />
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/e7ae6f3064.js" crossorigin="anonymous"></script>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MGHS47CX63"></script>
@@ -125,7 +125,7 @@
     <section class="home section" id="home">
       <div class="home_container container grid">
         <div class="home_content grid">
-          <div class="home_social">
+          <div class="home_social" data-aos="flip-left">
             <a aria-label="Linkedin" href="https://www.linkedin.com/in/sarthakskumar/" class="home_social-icon"
               target="_blank">
               <i class="uil uil-linkedin-alt"></i>
@@ -145,7 +145,7 @@
             </a>
           </div>
 
-          <div class="home_img">
+          <div class="home_img" data-aos="fade-left">
             <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink">
               <mask id="mask0" mask-type="alpha">
@@ -165,7 +165,7 @@
             </svg>
           </div>
 
-          <div class="home_data">
+          <div class="home_data" data-aos="zoom-in">
             <h1 class="home_title">Hello, I'm Sarthak</h1>
             <h3 class="home_subtitle">
               <span class="typewriter"></span> interests me
@@ -183,7 +183,7 @@
         </div>
 
         <div class="home_scroll">
-          <a href="#about" class="home_scroll-button button--flex">
+          <a href="#about" class="home_scroll-button button--flex" data-aos="zoom-in-up" data-aos-duration="700">
             <i class="uil uil-mouse-alt home_scroll-mouse"></i>
             <span class="home_scroll-name">Scroll Down</span>
             <i class="uil uil-arrow-down home_scroll-arrow"></i>
@@ -194,8 +194,8 @@
 
     <!-- About -->
     <section class="about section" id="about">
-      <h2 class="section_title">About Me</h2>
-      <span class="section_subtitle">My introduction</span>
+      <h2 class="section_title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">About Me</h2>
+      <span class="section_subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">My introduction</span>
       <div class="about_container container grid">
         <img src="assets\img\Pictures\about.webp" class="about_img" alt="Image" />
         <div class="about_data">
@@ -218,8 +218,9 @@
 
     <!-- Skills -->
     <section class="skills section" id="skills">
-      <h1 class="section_title">Skills</h1>
-      <span class="section_subtitle">My Technical Skills</span>
+      <h1 class="section_title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Skills</h1>
+      <span class="section_subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">My Technical
+        Skills</span>
       <div class="skills_container container grid">
         <!-- Skill Set 1 -->
         <div class="skill skills_content">
@@ -401,8 +402,9 @@
 
     <!-- Qualifications -->
     <section class="qualification section" id="experience">
-      <h2 class="section_title">Experience</h2>
-      <span class="section_subtitle">My Qualifications & Experience</span>
+      <h2 class="section_title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Experience</h2>
+      <span class="section_subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">My Qualifications &
+        Experience</span>
 
       <div class="qualification_container container">
         <div class="qualification_tabs">
@@ -749,8 +751,9 @@
     </section>
     <!--Events-->
     <section class="portfolio section" id="events">
-      <h2 class="section_title">Events and Competitions</h2>
-      <span class="section_subtitle">Organised Events and Competitions</span>
+      <h2 class="section_title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Events and Competitions</h2>
+      <span class="section_subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Organised Events and
+        Competitions</span>
 
       <div class="portfolio_container container swiper-container swiper mySwiper">
         <div class="swiper-wrapper">
@@ -897,8 +900,8 @@
 
 
     <section class="portfolio section" id="projects">
-      <h2 class="section_title">Projects</h2>
-      <span class="section_subtitle">My works</span>
+      <h2 class="section_title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Projects</h2>
+      <span class="section_subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">My works</span>
 
       <div class="portfolio_container container swiper-container swiper mySwiper">
         <div class="swiper-wrapper">
@@ -1106,8 +1109,9 @@
 
     <!-- Awards -->
     <section class="portfolio section" id="awards">
-      <h2 class="section_title">Awards</h2>
-      <span class="section_subtitle">Competitions and Events</span>
+      <h2 class="section_title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Awards</h2>
+      <span class="section_subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Competitions and
+        Events</span>
 
       <div class="portfolio_container container swiper-container swiper mySwiper">
         <div class="swiper-wrapper">
@@ -1384,8 +1388,8 @@
     </section>
     <!-- Contact Me -->
     <section class="contact section" id="contact">
-      <h1 class="section_title">Contact Me</h1>
-      <span class="section_subtitle">
+      <h1 class="section_title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Contact Me</h1>
+      <span class="section_subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         Want to connect? My inbox is always open!
       </span>
 
@@ -1528,7 +1532,7 @@
 
   <!-- Swiper JS -->
   <script src="./assets/js/swiper-bundle.min.js"></script>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./assets/js/main.js"></script>
 </body>
 

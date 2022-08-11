@@ -1,3 +1,5 @@
+AOS.init();
+
 // Formspree code
 const form = document.getElementById("contact-form");
 
