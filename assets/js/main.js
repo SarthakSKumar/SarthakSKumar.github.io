@@ -25,7 +25,8 @@ async function handleSubmit(event) {
       form.reset();
     })
     .catch((error) => {
-      status.innerHTML = "Oops! There was a problem delivering your message, please contact via other means.";
+      status.innerHTML =
+        "Oops! There was a problem delivering your message, please contact via other means.";
       document.querySelector(".alert_style").style.display = "block";
 
       // hide alert after 3 seconds

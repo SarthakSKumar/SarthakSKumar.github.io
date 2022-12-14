@@ -56,7 +56,7 @@
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
-    --small-font-size: 0.900rem;
+    --small-font-size: 0.9rem;
     --smaller-font-size: 0.813rem;
   }
 }
@@ -98,7 +98,6 @@ body.dark-theme {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-
 }
 
 html {
@@ -111,7 +110,6 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-
 }
 
 h1,
@@ -603,7 +601,7 @@ button {
   right: -0.5rem;
 }
 
-.swiper-horizontal>.swiper-pagination-bullets {
+.swiper-horizontal > .swiper-pagination-bullets {
   bottom: -2.5rem;
 }
 
@@ -980,7 +978,6 @@ button {
 
 /* For large devices */
 @media screen and (min-width: 1024px) {
-
   .header,
   .main,
   .footer_container {
@@ -1011,7 +1008,7 @@ button {
     right: -3.5rem;
   }
 
-  .swiper-container-horizontal>.swiper-pagination-bullets {
+  .swiper-container-horizontal > .swiper-pagination-bullets {
     bottom: -4.5rem;
   }
 
@@ -1026,7 +1023,6 @@ button {
 
 /* Typewriter Effect*/
 @keyframes typing {
-
   0.0000%,
   27.3488% {
     content: "";
@@ -1144,7 +1140,6 @@ button {
 }
 
 @keyframes blink {
-
   0%,
   100% {
     opacity: 1;
@@ -1184,7 +1179,6 @@ button {
   }
 
   @keyframes sequencePopup {
-
     0%,
     100% {
       content: "Web";
