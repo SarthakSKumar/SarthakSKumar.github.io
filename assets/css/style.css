@@ -474,6 +474,7 @@ button {
 .skills_list {
   height: fit-content;
   position: relative;
+  overflow: show;
 }
 
 .skills_open .skills_list {
