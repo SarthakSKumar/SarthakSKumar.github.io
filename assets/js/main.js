@@ -72,9 +72,9 @@ const skillContentArr = Array.from(skillContent);
 const skillHeaderArr = Array.from(skillHeader);
 
 skillHeaderArr.forEach((element, idx) => {
-  element.addEventListener("click", function () {
+  /*element.addEventListener("click", function () {
     skillContentArr[idx].classList.toggle("skills_open");
-  });
+  });*/
 });
 
 // QUALIFICATION TABS

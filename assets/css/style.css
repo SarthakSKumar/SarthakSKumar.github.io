@@ -472,8 +472,8 @@ button {
 }
 
 .skills_list {
-  height: 0;
-  overflow: hidden;
+  height: fit-content;
+  position: relative;
 }
 
 .skills_open .skills_list {
