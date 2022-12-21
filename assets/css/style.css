@@ -5,9 +5,7 @@
 
   --hue-color: 213;
   --first-color: hsl(184deg 64% 72%);
-  --first-color-second: hsla(276, 66%, 36%, 0.39);
   --first-color-alt: hsl(192deg 64% 72%);
-  --first-color-lighter: hsl(213, 92%, 85%);
   --title-color: #edede8;
   --text-color: #edede8;
   --text-color-light: #edede8;
@@ -59,10 +57,10 @@
 }
 
 /* Variables Dark Theme */
-body.dark-theme {
+body.light-theme {
+  --hue-color: 213;
   --first-color: hsl(325deg 98% 16%);
   --first-color-alt: hsl(335deg 98% 22%);
-  --first-color-second: #031833;
   --title-color: #010f20;
   --text-color: #010f20;
   --text-color-light: #010f20;
@@ -70,7 +68,7 @@ body.dark-theme {
   --body-color: #edede8;
   --container-color: #edede8;
   --scroll-bar-color: #edede8;
-  --scroll-thumb-color: #010f20;
+  --scroll-thumb-color: hsl(325deg 98% 16%);
 }
 
 /* Button Dark/Light */

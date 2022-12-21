@@ -188,7 +188,7 @@ window.addEventListener("scroll", scrollUpfunc);
 
 // DARK/LIGHT THEME
 const themeButton = document.getElementById("theme-button");
-const darkTheme = "dark-theme";
+const lightTheme = "light-theme";
 const iconTheme = "uil-sun";
 
 // Previously selected topic (if user selected)
@@ -197,15 +197,15 @@ const selectedIcon = localStorage.getItem("selected-icon");
 
 // obtain the current theme
 const getCurrentTheme = () =>
-  document.body.classList.contains(darkTheme) ? "dark" : "light";
+  document.body.classList.contains(lightTheme) ? "light" : "dark";
 const getCurrentIcon = () =>
-  themeButton.classList.contains(iconTheme) ? "uil-moon" : "uil-sun";
+  themeButton.classList.contains(iconTheme) ? "uil-sun" : "uil-moon";
 
 if (selectedTheme) {
-  document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
-    darkTheme
+  document.body.classList[selectedTheme === "light" ? "add" : "remove"](
+    lightTheme
   );
-  themeButton.classList[selectedIcon === "uil-moon" ? "add" : "remove"](
+  themeButton.classList[selectedIcon === "uil-sun" ? "add" : "remove"](
     iconTheme
   );
 }
@@ -213,7 +213,7 @@ if (selectedTheme) {
 // Activate/Deactivate the theme manually with the button
 themeButton.addEventListener("click", () => {
   // Add or remove the dark icon/theme
-  document.body.classList.toggle(darkTheme);
+  document.body.classList.toggle(lightTheme);
   themeButton.classList.toggle(iconTheme);
   // We save the theme and the current icon that the user chose
   localStorage.setItem("selected-theme", getCurrentTheme());
