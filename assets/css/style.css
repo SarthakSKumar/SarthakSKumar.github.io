@@ -755,7 +755,7 @@ button {
 
 /* SCROLL BAR */
 ::-webkit-scrollbar {
-  width: 0.6rem;
+  width: 0.3rem;
   background-color: var(--scroll-bar-color);
   border-radius: 0.5rem;
 }
@@ -766,7 +766,7 @@ button {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--text-color-light);
+  background-color: var(--first-color-alt);
 }
 
 /* MEDIA QUERIES */
