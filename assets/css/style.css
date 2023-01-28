@@ -135,10 +135,13 @@ button {
 .highlight {
   color: var(--body-color);
   font-weight: var(--font-medium);
-  font-size: var(--small-font-size);
+  font-size: var(--h4-font-size);
   background-color: var(--first-color);
   padding: 0.25rem 0.5rem;
-  border-radius: 0.25rem;
+  border: 1px solid var(--first-color);
+  border-radius: 0.3rem;
+  margin: 0.1rem 0;
+  display: inline-block;
 }
 .gradient {
   background: linear-gradient(
@@ -202,7 +205,7 @@ button {
 
 /* NAVBAR */
 .nav {
-  max-width: 768px;
+  max-width: 868px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -212,7 +215,7 @@ button {
 .nav_logo,
 .nav_toggle {
   color: var(--title-color);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-semi-bold);
 }
 
 .nav_logo:hover {
@@ -311,7 +314,6 @@ button {
 .home_social-icon {
   font-size: 1.4rem;
   color: var(--body-color);
-  margin: 0.5rem 1rem;
   background: var(--first-color);
   border-radius: 15%;
   padding: 0 0.3rem;
@@ -335,18 +337,18 @@ button {
 }
 
 .home_title {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 .home_subtitle {
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
   color: var(--text-color);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-75);
 }
 
 .home_description {
-  margin-bottom: var(--mb-2);
+  font-size: var(--h2-font-size);
 }
 
 /* BUTTONS */
