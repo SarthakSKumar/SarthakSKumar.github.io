@@ -181,7 +181,7 @@ button {
 
 /* LAYOUT  */
 .container {
-  max-width: 968px;
+  max-width: 868px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -202,7 +202,7 @@ button {
 
 /* NAVBAR */
 .nav {
-  max-width: 968px;
+  max-width: 768px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
