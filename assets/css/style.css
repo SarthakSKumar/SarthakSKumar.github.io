@@ -147,11 +147,10 @@ button {
   background: linear-gradient(
       90deg,
       var(--text-color),
-      var(--first-color-alt),
-      vaR(--first-color),
+      var(--first-color),
       var(--text-color)
     )
-    0 0 / 400% 100%;
+    0 0 / 200% 100%;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -200,7 +199,6 @@ button {
   bottom: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--body-color);
 }
 
 /* NAVBAR */
