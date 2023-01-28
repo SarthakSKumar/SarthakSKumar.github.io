@@ -219,3 +219,7 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+// background: rgba(var(--body-color), 0.8);
+//   box-shadow: 0 4px 30px rgba(var(--body-color), 0.1);
+//   backdrop-filter: blur(6px);
+//   -webkit-backdrop-filter: blur(6px);
