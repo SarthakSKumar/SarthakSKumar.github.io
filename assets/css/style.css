@@ -137,7 +137,7 @@ button {
   font-weight: var(--font-medium);
   font-size: var(--h4-font-size);
   background-color: var(--first-color);
-  padding: 0.25rem 0.5rem;
+  padding: 0rem 0.5rem;
   border: 1px solid var(--first-color);
   border-radius: 0.3rem;
   margin: 0.1rem 0;
@@ -199,6 +199,7 @@ button {
   bottom: 0;
   left: 0;
   z-index: var(--z-fixed);
+  background-color: var(--body-color);
 }
 
 /* NAVBAR */
@@ -212,7 +213,6 @@ button {
 
 .nav_logo,
 .nav_toggle {
-  color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
 
@@ -746,7 +746,7 @@ button {
 
 .scrollup_icon {
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--body-color);
 }
 
 /* SHOW SCROLL BUTTON */
