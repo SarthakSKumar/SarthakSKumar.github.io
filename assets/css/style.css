@@ -348,7 +348,7 @@ button {
 }
 
 .home_description {
-  font-size: var(--h3-font-size);
+  font-size: 1.05rem;
 }
 
 /* BUTTONS */
@@ -774,7 +774,13 @@ button {
 
 /* MEDIA QUERIES */
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 395px) {
+  .home_title {
+    font-size: 3rem;
+  }
+  .home_description {
+    font-size: 0.9rem;
+  }
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -839,6 +845,9 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .home_title {
+    font-size: 5rem;
+  }
   .container {
     margin-left: auto;
     margin-right: auto;
