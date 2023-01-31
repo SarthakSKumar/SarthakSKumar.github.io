@@ -11,9 +11,9 @@
 </div>
 
 <br>
-<a href="https://github.com/SarthakSKumar/sarthakskumar.github.io"><img src="https://visitor-badge.laobi.icu/badge?page_id=SarthakSKumar/sarthakskumar.github.io" alt="Number of Visitors"></a>
-<a href="https://github.com/SarthakSKumar/sarthakskumar.github.io/stargazers"><img src="https://img.shields.io/github/stars/SarthakSKumar/sarthakskumar.github.io" alt="github stars"></a>
-<a href="https://github.com/SarthakSKumar/sarthakskumar.github.io/network/members"><img src="https://img.shields.io/github/forks/sarthakskumar/sarthakskumar.github.io" alt="github forks"></a>
+<a href="https://github.com/SarthakSKumar/sarthakskumar.github.io"><img src="https://visitor-badge.laobi.icu/badge?page_id=SarthakSKumar/sarthakskumar.github.io" alt="Visitors count"></a>
+<a href="https://github.com/SarthakSKumar/sarthakskumar.github.io/stargazers"><img src="https://img.shields.io/github/stars/SarthakSKumar/sarthakskumar.github.io" alt="Repo stars"></a>
+<a href="https://github.com/SarthakSKumar/sarthakskumar.github.io/network/members"><img src="https://img.shields.io/github/forks/sarthakskumar/sarthakskumar.github.io" alt="Repo forks"></a>
 <a href="https:/sarthakskumar.github.io/"><img src="https://img.shields.io/badge/website-up-yellow" alt="website up"></a>
 <a href="https://www.linkedin.com/in/sarthakskumar/"><img src="https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg" alt="linkedin"></a>
 
