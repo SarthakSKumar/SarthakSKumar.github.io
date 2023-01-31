@@ -331,7 +331,7 @@ button {
 }
 
 .home_title {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .home_subtitle {
@@ -839,8 +839,11 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .home_description {
+    font-size: 1.15rem;
+  }
   .home_title {
-    font-size: 5rem;
+    font-size: 5.5rem;
   }
   .container {
     margin-left: auto;
