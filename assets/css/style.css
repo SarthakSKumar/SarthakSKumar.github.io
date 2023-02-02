@@ -6,6 +6,7 @@
   --hue-color: 213;
   --first-color: hsl(184deg 64% 72%);
   --first-color-alt: hsl(192deg 64% 72%);
+  --first-color-light: hsla(184deg, 64%, 72%, 0.02);
   --title-color: #edede8;
   --text-color: #edede8;
   --text-color-light: #edede8;
@@ -60,6 +61,7 @@
 body.light-theme {
   --hue-color: 213;
   --first-color: hsl(325deg 98% 16%);
+  --first-color-light: hsla(325deg, 98%, 16%, 0.05);
   --first-color-alt: hsl(335deg 98% 22%);
   --title-color: #010f20;
   --text-color: #010f20;
@@ -100,10 +102,9 @@ html {
 }
 
 body {
-  margin: 0 0 var(--header-height);
+  margin: 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
   color: var(--text-color);
 }
 
@@ -132,6 +133,18 @@ button {
   border-style: none;
   cursor: pointer;
 }
+#canvas {
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--body-color);
+  transform: scale(1.18);
+}
+
 .highlight {
   color: var(--body-color);
   font-weight: var(--font-medium);
@@ -199,18 +212,22 @@ button {
   bottom: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--body-color);
 }
 
 /* NAVBAR */
 .nav {
-  max-width: 868px;
+  padding: 0 3rem;
+  max-width: 950px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-style: solid;
+  border-width: 0 0.1rem 0.1rem 0.1rem;
+  border-color: var(--first-color);
+  border-radius: 0 0 15px 20px;
+  background: var(--body-color);
 }
-
 .nav_logo,
 .nav_toggle {
   font-weight: var(--font-semi-bold);
@@ -226,6 +243,11 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+  .nav {
+    border-width: 0.1rem 0.1rem 0 0.1rem;
+    border-radius: 15px 15px 0 0;
+    padding: 1rem;
+  }
   .nav_menu {
     position: fixed;
     bottom: -100%;
@@ -233,7 +255,6 @@ button {
     width: 100%;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
   }

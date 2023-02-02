@@ -72,36 +72,13 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-
-    <link
-      rel="shortcut icon"
-      href="./assets/img/favicon.ico"
-      type="image/x-icon"
-    />
+    
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script
-      src="https://kit.fontawesome.com/e7ae6f3064.js"
-      crossorigin="anonymous"
-    ></script>
-    <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1636192990/magicmouse/magic_mouse-1.2.1.cdn.min.js"></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-MGHS47CX63"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-MGHS47CX63");
-    </script>
   </head>
 
   <body>
+    <canvas id="canvas"></canvas>
     <!-- Header -->
     <header class="header" id="header">
       <nav class="nav container">
@@ -2108,10 +2085,9 @@
       <i class="uil uil-arrow-up scrollup_icon"></i>
     </a>
 
-    <!-- Swiper JS -->
-    <script src="./assets/js/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1636192990/magicmouse/magic_mouse-1.2.1.cdn.min.js"></script>
     <script type="text/javascript">
       magicMouse({
     "cursorOuter": "circle-basic",
@@ -2121,5 +2097,25 @@
     "outerWidth": 30,
     "outerHeight": 30})
   </script>
+  <script src="./assets/js/background.js"></script>
+  <script src="./assets/js/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <script
+      src="https://www.googletagmanager.com/gtag/js?id=G-MGHS47CX63"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-MGHS47CX63");
+    </script>
   </body>
 </html>

@@ -41,7 +41,6 @@ form.addEventListener("submit", handleSubmit);
 let navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
   navClose = document.getElementById("nav-close");
-
 // MENU SHOW
 if (navToggle) {
   navToggle.addEventListener("click", () => {
