@@ -11,7 +11,7 @@ let mouse = {
 
 function init() {
   resizeReset();
-  animationLoop();
+  animationLoop(); 
 }
 
 function resizeReset() {

@@ -61,7 +61,7 @@
 body.light-theme {
   --hue-color: 213;
   --first-color: hsl(325deg 98% 16%);
-  --first-color-light: hsla(325deg, 98%, 16%, 0.05);
+  --first-color-light: hsla(325deg, 98%, 16%, 0.03);
   --first-color-alt: hsl(335deg 98% 22%);
   --title-color: #010f20;
   --text-color: #010f20;
