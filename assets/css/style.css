@@ -6,7 +6,7 @@
   --hue-color: 213;
   --first-color: hsl(184deg 64% 72%);
   --first-color-alt: hsl(192deg 64% 72%);
-  --first-color-light: hsla(184deg, 64%, 72%, 0.02);
+  --first-color-light: hsla(184deg, 64%, 72%, 0.01);
   --title-color: #edede8;
   --text-color: #edede8;
   --text-color-light: #edede8;
@@ -61,7 +61,7 @@
 body.light-theme {
   --hue-color: 213;
   --first-color: hsl(325deg 98% 16%);
-  --first-color-light: hsla(325deg, 98%, 16%, 0.03);
+  --first-color-light: hsla(325deg, 98%, 16%, 0.02);
   --first-color-alt: hsl(335deg 98% 22%);
   --title-color: #010f20;
   --text-color: #010f20;
