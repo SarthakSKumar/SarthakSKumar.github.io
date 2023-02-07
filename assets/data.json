@@ -63,12 +63,26 @@
       "year": "2022",
       "link": "https://sites.google.com/view/sarthakskumar/i-city-mangaluru"
     },
-    "Prototypical Agriculture System": {
+    "Swachh Bin Prototype 1": {
       "subtitle": "",
-      "img": "assets\\img\\Project_images\\PrototypicalAgriculturalSystem.webp",
-      "description": "An Interface which co-ordinates with incorporated technology  which are currently being used in other sectors, to give smart guidance to a farmer for a successful yield.",
+      "img": "assets\\img\\Project_images\\Swachh-Bin.webp",
+      "description": "A prototype dustbin that can be kept in a vehicle. It is a unique bin as it can compress waste added to it and make space for more waste to be added.",
       "year": "2022",
-      "link": "https://sites.google.com/view/sarthakskumar/agriculture-system"
+      "link": "hhttps://sites.google.com/view/sarthakskumar/swachh-bin"
+    },
+    "Ideal Home Security": {
+      "subtitle": "",
+      "img": "assetsimgProject_imagesIdeal Home Security.webp",
+      "description": " An all-in-one model home security system with phone control and live streaming agility.",
+      "year": "2022",
+      "link": "https://sites.google.com/view/sarthakskumar/ideal-home-security"
+    },
+    "Mechanium": {
+      "subtitle": "",
+      "img": "assets\\img\\Project_images\\Mechanium.webp",
+      "description": "Bluetooth-controlled Omni-Directional car equipped with Mechanum Wheels.",
+      "year": "2022",
+      "link": "https://sites.google.com/view/sarthakskumar/mechanium"
     }
   }
 }

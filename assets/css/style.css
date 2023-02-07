@@ -575,7 +575,6 @@ button {
   justify-content: space-between;
   flex-wrap: wrap;
   align-content: center;
-  width: 100%;
 }
 .project_image {
   height: 100%;
