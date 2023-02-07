@@ -1,9 +1,9 @@
 {
   "Projects": {
-    "Phoenix UAV": {
+    "Phoenix UAV (VTOL)": {
       "subtitle": "Vertical Take-off & Landing",
       "img": "assets\\img\\Project_images\\Phoenix.webp",
-      "description": "We plan to solve poor connectivity in rural India by using Pheonix for delivery of goods to remote areas. Built a prototype for proof of concept and testing different configurations.",
+      "description": "To solve poor connectivity in rural India by using <b>Pheonix</b> for delivery of goods. Built a <b>prototype</b> for concept proof and testing configurations.",
       "year": "2022",
       "link": "https://github.com/SarthakSKumar/Phoenix"
     },
@@ -28,8 +28,8 @@
       "year": "2022",
       "link": "https://trendybites.in"
     },
-    "Secure Data Transmission": {
-      "subtitle": "Snack Company Website",
+    "Secure and Efficient Data Transmission": {
+      "subtitle": "",
       "img": "assets\\img\\Project_images\\SecureandEfficientTransmission.webp",
       "description": "Secure and Efficient Data Transmission using <b>Compression and Cipher Algorithms.</b> A CLI Based project using C.",
       "year": "2022",
@@ -37,7 +37,7 @@
     },
     "Constraint Satisfaction Problems with RAT": {
       "subtitle": " ",
-      "img": "assets\\img\\Project_images\\Solving-CSP-using-RAT.webp",
+      "img": "assets\\img\\Project_images\\Solving-CSP-using-RAT.webm",
       "description": "Consists of <b>Sudoku</b> and <b>Rat in a Maze</b> problems, solved using backtracking algorithms, with Python and Tkinter framework.",
       "year": "2022",
       "link": "https://github.com/SarthakSKumar/First-Sem-Project-RAT"
@@ -52,7 +52,7 @@
     "AgriBot 1.0 Prototype": {
       "subtitle": "Robot Locomotive",
       "img": "assets\\img\\Project_images\\AgriBot.webp",
-      "description": "It is a prototype locomotive that collects soil related readings from different areas of the field and provides suitable information to a farmer regarding crop choice and growth.",
+      "description": "It's a locomotive that collects <b>soil readings</b> from different areas in a field and provides information to a farmer regarding crop choice and growth.",
       "year": "2022",
       "link": "https://sites.google.com/view/sarthakskumar/agribot-1st-prototype"
     },
@@ -64,25 +64,25 @@
       "link": "https://sites.google.com/view/sarthakskumar/i-city-mangaluru"
     },
     "Swachh Bin Prototype 1": {
-      "subtitle": "",
+      "subtitle": "Portable dustbin",
       "img": "assets\\img\\Project_images\\Swachh-Bin.webp",
       "description": "A prototype dustbin that can be kept in a vehicle. It is a unique bin as it can compress waste added to it and make space for more waste to be added.",
       "year": "2022",
       "link": "hhttps://sites.google.com/view/sarthakskumar/swachh-bin"
     },
-    "Ideal Home Security": {
-      "subtitle": "",
-      "img": "assetsimgProject_imagesIdeal Home Security.webp",
-      "description": " An all-in-one model home security system with phone control and live streaming agility.",
-      "year": "2022",
-      "link": "https://sites.google.com/view/sarthakskumar/ideal-home-security"
-    },
     "Mechanium": {
-      "subtitle": "",
+      "subtitle": "Omni-Directional RC Car",
       "img": "assets\\img\\Project_images\\Mechanium.webp",
       "description": "Bluetooth-controlled Omni-Directional car equipped with Mechanum Wheels.",
       "year": "2022",
       "link": "https://sites.google.com/view/sarthakskumar/mechanium"
+    },
+    "Ideal Home Security": {
+      "subtitle": "Smart Security System",
+      "img": "assets\\img\\Project_images\\IdealHomeSecurity.webp",
+      "description": "An all-in-one model home security system with phone control and live streaming agility.",
+      "year": "2022",
+      "link": "https://sites.google.com/view/sarthakskumar/ideal-home-security"
     }
   }
 }
