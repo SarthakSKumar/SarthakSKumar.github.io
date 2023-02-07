@@ -218,3 +218,41 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+//Project Section
+
+fetch("./assets/data.json")
+  .then((res) => res.json())
+  .then((data) => {
+    const project_container = document.querySelector(".project_container");
+
+    Object.entries(data.Projects).forEach((entry) => {
+      const title = entry[0],
+        subtitle = entry[1].subtitle,
+        img = entry[1].img,
+        description = entry[1].description,
+        year = entry[1].year,
+        link = entry[1].link;
+      subtitleHTML = " ";
+      if (subtitle !== " ") {
+        subtitleHTML = `<div class="card_subtitle">${subtitle}</div>`;
+      }
+      var HTML = `<article class="card">
+    <div class="temporary_text">
+      <img
+        class="project_image"
+        src=${img} loading="lazy"
+      />
+    </div>
+    <div class="card_content">
+      <div class="card_title">${title}</div>${subtitleHTML}
+      <p class="card_description">
+        ${description}
+      </p>
+    </div>
+  </article>`;
+
+      project_container.innerHTML += HTML;
+    });
+  })
+  .catch((err) => console.log(err));

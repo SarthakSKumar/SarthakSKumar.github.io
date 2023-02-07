@@ -1,0 +1,74 @@
+{
+  "Projects": {
+    "Phoenix UAV": {
+      "subtitle": "Vertical Take-off & Landing",
+      "img": "assets\\img\\Project_images\\Phoenix.webp",
+      "description": "We plan to solve poor connectivity in rural India by using Pheonix for delivery of goods to remote areas. Built a prototype for proof of concept and testing different configurations.",
+      "year": "2022",
+      "link": "https://github.com/SarthakSKumar/Phoenix"
+    },
+    "CAPA Website": {
+      "subtitle": "Care and Prevent Anemia",
+      "img": "assets\\img\\Project_images\\capawebsite.webp",
+      "description": "Currently Designing and Developing a full stack <b>MPA</b> for finding solutions to <b>Anemia</b> with interactive UI and a wide range of other functionalities.</p>",
+      "year": "2022",
+      "link": "https://capaforanemia.com"
+    },
+    "Shunya Club Website": {
+      "subtitle": "Math Club at PES University",
+      "img": "assets\\img\\Project_images\\ShunyaWebsite.webp",
+      "description": "Worked on the website for <b>Shunya Club</b> at PESU. Worked with <b>VantaJS</b> and <b>AoSJS</b> libraries. <b>Respsonsive design</b> with an interactive UI.",
+      "year": "2022",
+      "link": "https://shunyapes.com"
+    },
+    "Trendy Bites Website": {
+      "subtitle": "Snack Company Website",
+      "img": "assets\\img\\Project_images\\TrendyBitesWebsite.webp",
+      "description": "Developed a <b>SPA</b> for Trendy Bites, a vacuum fried snack company. Form integrations, <b>responsive UI</b> and smooth animations. <b>SEO Optimised</b> and fully accessible website.",
+      "year": "2022",
+      "link": "https://trendybites.in"
+    },
+    "Secure Data Transmission": {
+      "subtitle": "Snack Company Website",
+      "img": "assets\\img\\Project_images\\SecureandEfficientTransmission.webp",
+      "description": "Secure and Efficient Data Transmission using <b>Compression and Cipher Algorithms.</b> A CLI Based project using C.",
+      "year": "2022",
+      "link": "https://github.com/SarthakSKumar/Secure-and-Efficient-Data-Transmission"
+    },
+    "Constraint Satisfaction Problems with RAT": {
+      "subtitle": " ",
+      "img": "assets\\img\\Project_images\\Solving-CSP-using-RAT.webp",
+      "description": "Consists of <b>Sudoku</b> and <b>Rat in a Maze</b> problems, solved using backtracking algorithms, with Python and Tkinter framework.",
+      "year": "2022",
+      "link": "https://github.com/SarthakSKumar/First-Sem-Project-RAT"
+    },
+    "Personal Portfolio Website": {
+      "subtitle": " ",
+      "img": "assets\\img\\Readme-Image.webp",
+      "description": "Static portfolio website to showcase my work and projects. Developed using <b>HTML, Pure CSS and Vanilla JS</b>, with a clean and minimal UI. Deployed using <b>Github Pages</b>",
+      "year": "2022",
+      "link": "https://github.com/SarthakSKumar/SarthakSKumar.github.io"
+    },
+    "AgriBot 1.0 Prototype": {
+      "subtitle": "Robot Locomotive",
+      "img": "assets\\img\\Project_images\\AgriBot.webp",
+      "description": "It is a prototype locomotive that collects soil related readings from different areas of the field and provides suitable information to a farmer regarding crop choice and growth.",
+      "year": "2022",
+      "link": "https://sites.google.com/view/sarthakskumar/agribot-1st-prototype"
+    },
+    "I-City Mangaluru App": {
+      "subtitle": "Smart City App",
+      "img": "assets\\img\\Project_images\\iCityMangaluruApp.webp",
+      "description": "An app based on the theme Smart City. This app basically includes components required for a smooth functioning of an ideal city.",
+      "year": "2022",
+      "link": "https://sites.google.com/view/sarthakskumar/i-city-mangaluru"
+    },
+    "Prototypical Agriculture System": {
+      "subtitle": "",
+      "img": "assets\\img\\Project_images\\PrototypicalAgriculturalSystem.webp",
+      "description": "An Interface which co-ordinates with incorporated technology  which are currently being used in other sectors, to give smart guidance to a farmer for a successful yield.",
+      "year": "2022",
+      "link": "https://sites.google.com/view/sarthakskumar/agriculture-system"
+    }
+  }
+}
