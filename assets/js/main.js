@@ -239,6 +239,7 @@ fetch("./assets/data.json")
       }
       var HTML = `<article class="card">
     <div class="temporary_text">
+      <div class="card_year">${year}</div>
       <img
         class="project_image"
         src=${img} loading="lazy"
@@ -249,9 +250,9 @@ fetch("./assets/data.json")
       <p class="card_description">
         ${description}
       </p>
+      <a href=${link} target="_blank" class="card_link">View Project <i class="uil uil-arrow-right"></i></a>
     </div>
   </article>`;
-
       project_container.innerHTML += HTML;
     });
   })

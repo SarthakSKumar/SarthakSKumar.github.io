@@ -589,6 +589,16 @@ button {
   overflow: hidden;
   border-radius: 8px;
 }
+.card_year {
+  position: absolute;
+  background: var(--first-color-alt);
+  font-size: 14px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-weight: 500;
+  top: 10px;
+  left: 10px;
+}
 .card_title {
   font-weight: bold;
   color: var(--body-color);
@@ -598,6 +608,18 @@ button {
   font-size: 14px;
   color: var(--body-color);
   font-weight: 500;
+}
+.card_link {
+  background: var(--body-color);
+  border-radius: 12px;
+  color: var(--text-color);
+  position: absolute;
+  font-size: 14px;
+  font-weight: 500;
+  bottom: 0;
+  right: 0;
+  margin: 12px;
+  padding: 2px 8px;
 }
 .card_content {
   box-sizing: border-box;
@@ -610,6 +632,7 @@ button {
   background: var(--first-color);
   transform: translateY(70%);
   transition: transform 0.25s;
+  opacity: 0.9;
 }
 .card_description {
   margin: 8px 0;
@@ -618,6 +641,8 @@ button {
   transition: opacity 0.5s;
 }
 .card:hover .card_content {
+  opacity: 1;
+  transition: 0.2s;
   transform: translateY(0);
 }
 .card:hover .card_description {

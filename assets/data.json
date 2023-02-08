@@ -24,7 +24,7 @@
     "Trendy Bites Website": {
       "subtitle": "Snack Company Website",
       "img": "assets\\img\\Project_images\\TrendyBitesWebsite.webp",
-      "description": "Developed a <b>SPA</b> for Trendy Bites, a vacuum fried snack company. Form integrations, <b>responsive UI</b> and smooth animations. <b>SEO Optimised</b> and fully accessible website.",
+      "description": "Developed a <b>SPA</b> for Trendy Bites, a vacuum fried snack company. Form integrations, and smooth animations. <b>SEO Optimised</b> and accessible website.",
       "year": "2022",
       "link": "https://trendybites.in"
     },
@@ -53,35 +53,35 @@
       "subtitle": "Robot Locomotive",
       "img": "assets\\img\\Project_images\\AgriBot.webp",
       "description": "It's a locomotive that collects <b>soil readings</b> from different areas in a field and provides information to a farmer regarding crop choice and growth.",
-      "year": "2022",
+      "year": "2019",
       "link": "https://sites.google.com/view/sarthakskumar/agribot-1st-prototype"
     },
     "I-City Mangaluru App": {
       "subtitle": "Smart City App",
       "img": "assets\\img\\Project_images\\iCityMangaluruApp.webp",
       "description": "An app based on the theme Smart City. This app basically includes components required for a smooth functioning of an ideal city.",
-      "year": "2022",
+      "year": "2019",
       "link": "https://sites.google.com/view/sarthakskumar/i-city-mangaluru"
     },
     "Swachh Bin Prototype 1": {
       "subtitle": "Portable dustbin",
       "img": "assets\\img\\Project_images\\Swachh-Bin.webp",
       "description": "A prototype dustbin that can be kept in a vehicle. It is a unique bin as it can compress waste added to it and make space for more waste to be added.",
-      "year": "2022",
+      "year": "2018",
       "link": "hhttps://sites.google.com/view/sarthakskumar/swachh-bin"
     },
     "Mechanium": {
       "subtitle": "Omni-Directional RC Car",
       "img": "assets\\img\\Project_images\\Mechanium.webp",
       "description": "Bluetooth-controlled Omni-Directional car equipped with Mechanum Wheels.",
-      "year": "2022",
+      "year": "2017",
       "link": "https://sites.google.com/view/sarthakskumar/mechanium"
     },
     "Ideal Home Security": {
       "subtitle": "Smart Security System",
       "img": "assets\\img\\Project_images\\IdealHomeSecurity.webp",
       "description": "An all-in-one model home security system with phone control and live streaming agility.",
-      "year": "2022",
+      "year": "2016",
       "link": "https://sites.google.com/view/sarthakskumar/ideal-home-security"
     }
   }
