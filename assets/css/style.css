@@ -872,7 +872,7 @@ button {
 
 /* MEDIA QUERIES */
 /* For small devices */
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 250px) {
   .home_title {
     font-size: 3rem;
   }
@@ -912,7 +912,7 @@ button {
     width: 200px;
   }
   .card {
-    min-width: 100%;
+    width: 100%;
   }
 }
 
