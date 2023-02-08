@@ -218,8 +218,8 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
 
-//Project Section
-async function fetchProjects() {
+//Project, Events and Awards Section
+async function fetchData() {
   try {
     const res = await fetch("./assets/data.json");
     const data = await res.json();
@@ -253,4 +253,4 @@ async function fetchProjects() {
   }
 }
 
-fetchProjects();
+fetchData();

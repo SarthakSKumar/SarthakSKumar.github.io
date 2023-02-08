@@ -826,8 +826,8 @@ button {
 .footer_copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color-light);
   margin-top: var(--mb-3);
+  color: var(--body-color);
 }
 
 /* SCROLL UP */
@@ -1094,6 +1094,7 @@ button {
 
   .footer_copy {
     margin-top: 4.5rem;
+    color: var(--body-color);
   }
   .card {
     width: 16.25rem;
