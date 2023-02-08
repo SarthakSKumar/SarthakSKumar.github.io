@@ -572,11 +572,10 @@ button {
 /* PROJECTS */
 .project_container {
   display: flex;
-  justify-content: space-between;
+  place-content: center space-between;
   flex-wrap: wrap;
-  align-content: center;
 }
-.project_image {
+.card_image {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -584,23 +583,23 @@ button {
 }
 .card {
   position: relative;
-  width: 260px;
-  height: 208px;
-  margin: 16px 0;
+  width: 16rem;
+  height: 13rem;
+  margin: 1rem 0;
   color: var(--body-color);
   background: var(-first-color);
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 .card_year {
   position: absolute;
   background: var(--first-color-alt);
-  font-size: 14px;
-  padding: 2px 4px;
-  border-radius: 4px;
+  font-size: 0.875rem;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
   font-weight: 500;
-  top: 10px;
-  left: 10px;
+  top: 0.5rem;
+  left: 0.5rem;
 }
 .card_title {
   font-weight: bold;
@@ -608,21 +607,21 @@ button {
   font-size: 16px;
 }
 .card_subtitle {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--body-color);
   font-weight: 500;
 }
 .card_link {
   background: var(--body-color);
-  border-radius: 12px;
+  border-radius: 0.75rem;
   color: var(--text-color);
   position: absolute;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   bottom: 0;
   right: 0;
-  margin: 12px;
-  padding: 2px 8px;
+  margin: 0.75rem;
+  padding: 0.125rem 0.5rem;
 }
 .card_content {
   box-sizing: border-box;
@@ -631,15 +630,15 @@ button {
   bottom: 0;
   width: 100%;
   height: 100%;
-  padding: 8px 12px;
+  padding: 0.5rem 0.75rem;
   background: var(--first-color);
   transform: translateY(70%);
   transition: transform 0.25s;
   opacity: 0.9;
 }
 .card_description {
-  margin: 8px 0;
-  font-size: 14px;
+  margin: 0.5rem 0;
+  font-size: 0.875rem;
   opacity: 0;
   transition: opacity 0.5s;
 }
@@ -873,7 +872,7 @@ button {
 
 /* MEDIA QUERIES */
 /* For small devices */
-@media screen and (max-width: 395px) {
+@media screen and (min-width: 395px) {
   .home_title {
     font-size: 3rem;
   }
@@ -912,10 +911,20 @@ button {
   .portfolio-img {
     width: 200px;
   }
+  .card {
+    min-width: 100%;
+  }
 }
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
+  .project_container {
+    justify-content: space-around;
+  }
+  .card {
+    width: 14rem;
+    height: 11rem;
+  }
   .home_content {
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -1075,6 +1084,10 @@ button {
 
   .footer_copy {
     margin-top: 4.5rem;
+  }
+  .card {
+    width: 16.25rem;
+    height: 13rem;
   }
 }
 

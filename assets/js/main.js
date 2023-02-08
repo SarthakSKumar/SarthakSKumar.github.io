@@ -237,13 +237,13 @@ fetch("./assets/data.json")
       if (subtitle !== " ") {
         subtitleHTML = `<div class="card_subtitle">${subtitle}</div>`;
       }
-      var HTML = `<article class="card">
-    <div class="temporary_text">
-      <div class="card_year">${year}</div>
+      var HTML = `<div class="card">
+    <div>
       <img
-        class="project_image"
+        class="card_image"
         src=${img} loading="lazy"
       />
+      <div class="card_year">${year}</div>
     </div>
     <div class="card_content">
       <div class="card_title">${title}</div>${subtitleHTML}
@@ -252,7 +252,7 @@ fetch("./assets/data.json")
       </p>
       <a href=${link} target="_blank" class="card_link">View Project <i class="uil uil-arrow-right"></i></a>
     </div>
-  </article>`;
+  </div>`;
       project_container.innerHTML += HTML;
     });
   })
