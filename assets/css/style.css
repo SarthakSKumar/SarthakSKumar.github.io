@@ -872,7 +872,7 @@ button {
 
 /* MEDIA QUERIES */
 /* For small devices */
-@media screen and (min-width: 395px) {
+@media screen and (min-width: 364px) {
   .home_title {
     font-size: 3rem;
   }
