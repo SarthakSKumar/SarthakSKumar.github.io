@@ -230,7 +230,7 @@ async function fetchData() {
           ? `<div class="card_subtitle">${subtitle}</div>`
           : "";
         return `
-          <div class="card">
+          <div class="card" data-aos = "fade-up">
             <div>
               <img class="card_image" src=${img} loading="lazy" />
               <div class="card_year">${year}</div>
