@@ -220,40 +220,38 @@ themeButton.addEventListener("click", () => {
 });
 
 //Project Section
+async function fetchProjects() {
+  try {
+    const res = await fetch("./assets/data.json");
+    const data = await res.json();
+    const projectContainer = document.querySelector(".project_container");
+    const projectsHTML = Object.entries(data.Projects)
+      .map(([title, { subtitle, img, description, year, link }]) => {
+        const subtitleHTML = subtitle
+          ? `<div class="card_subtitle">${subtitle}</div>`
+          : "";
+        return `
+          <div class="card">
+            <div>
+              <img class="card_image" src=${img} loading="lazy" />
+              <div class="card_year">${year}</div>
+            </div>
+            <div class="card_content">
+              <div class="card_title">${title}</div>
+              ${subtitleHTML}
+              <p class="card_description">${description}</p>
+              <a href=${link} target="_blank" class="card_link">
+                View Project <i class="uil uil-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        `;
+      })
+      .join("");
+    projectContainer.innerHTML = projectsHTML;
+  } catch (err) {
+    console.error(err);
+  }
+}
 
-fetch("./assets/data.json")
-  .then((res) => res.json())
-  .then((data) => {
-    const project_container = document.querySelector(".project_container");
-
-    Object.entries(data.Projects).forEach((entry) => {
-      const title = entry[0],
-        subtitle = entry[1].subtitle,
-        img = entry[1].img,
-        description = entry[1].description,
-        year = entry[1].year,
-        link = entry[1].link;
-      subtitleHTML = " ";
-      if (subtitle !== " ") {
-        subtitleHTML = `<div class="card_subtitle">${subtitle}</div>`;
-      }
-      var HTML = `<div class="card">
-    <div>
-      <img
-        class="card_image"
-        src=${img} loading="lazy"
-      />
-      <div class="card_year">${year}</div>
-    </div>
-    <div class="card_content">
-      <div class="card_title">${title}</div>${subtitleHTML}
-      <p class="card_description">
-        ${description}
-      </p>
-      <a href=${link} target="_blank" class="card_link">View Project <i class="uil uil-arrow-right"></i></a>
-    </div>
-  </div>`;
-      project_container.innerHTML += HTML;
-    });
-  })
-  .catch((err) => console.log(err));
+fetchProjects();
