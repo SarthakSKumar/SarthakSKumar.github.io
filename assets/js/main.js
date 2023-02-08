@@ -2,7 +2,6 @@ AOS.init();
 
 // Formspree code
 const form = document.getElementById("contact-form");
-
 async function handleSubmit(event) {
   event.preventDefault();
   var status = document.getElementById("alert");
@@ -158,11 +157,11 @@ function scrollActive() {
 
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document
-        .querySelector(".nav_menu a[href*=" + sectionId + "]")
+        .querySelector(`.nav_menu a[href*="${sectionId}"]`)
         .classList.add("active-link");
     } else {
       document
-        .querySelector(".nav_menu a[href*=" + sectionId + "]")
+        .querySelector(`.nav_menu a[href*="${sectionId}"]`)
         .classList.remove("active-link");
     }
   });

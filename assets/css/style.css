@@ -372,6 +372,7 @@ button {
   background-color: var(--first-color);
   color: var(--body-color);
   padding: 1rem;
+  margin: 1rem 0;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
 }
@@ -874,9 +875,13 @@ button {
 
 /* MEDIA QUERIES */
 /* For small devices */
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 355px) and (max-width: 467px) {
   .home_title {
     font-size: 3rem;
+  }
+  .home_title span {
+    font-size: 3.5rem;
+    margin: 0;
   }
   .home_description {
     font-size: 0.9rem;
@@ -899,7 +904,7 @@ button {
   }
 
   .home_blob {
-    width: 180px;
+    width: 220px;
   }
 
   .skills_title {
