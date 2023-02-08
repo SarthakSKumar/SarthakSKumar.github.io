@@ -877,14 +877,14 @@ button {
 /* For small devices */
 @media screen and (min-width: 355px) and (max-width: 467px) {
   .home_title {
-    font-size: 3rem;
+    font-size: 3.75rem;
   }
   .home_title span {
-    font-size: 3.5rem;
+    font-size: 4.25rem;
     margin: 0;
   }
   .home_description {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .container {
     margin-left: var(--mb-1);
