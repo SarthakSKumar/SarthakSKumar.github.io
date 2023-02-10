@@ -587,7 +587,12 @@ button {
   overflow: hidden;
   border-radius: 0.5rem;
 }
-
+.card img,
+video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
 .card_year {
   position: absolute;
   background: var(--first-color-alt);

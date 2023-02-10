@@ -225,16 +225,17 @@ async function fetchData() {
     const data = await res.json();
     const projectContainer = document.querySelector(".project_container");
     const projectsHTML = Object.entries(data.Projects)
-      .map(([title, { subtitle, img, description, year, link }]) => {
+      .map(([title, { subtitle, img, description, year, link, video }]) => {
         const subtitleHTML = subtitle
           ? `<div class="card_subtitle">${subtitle}</div>`
           : "";
+        const mediaHTML = video
+          ? `<video src=${img} autoplay loop style = "height: 80%"></video>`
+          : `<img class="card_image" src=${img} loading="lazy" />`;
         return `
           <div class="card" data-aos = "fade-up">
-            <div>
-              <img class="card_image" src=${img} loading="lazy" />
+              ${mediaHTML}
               <div class="card_year">${year}</div>
-            </div>
             <div class="card_content">
               <div class="card_title">${title}</div>
               ${subtitleHTML}

@@ -7,6 +7,13 @@
       "year": "2022",
       "link": "https://github.com/SarthakSKumar/Phoenix"
     },
+    "Notes Web App": {
+      "subtitle": "Simple note taking app",
+      "img": "assets\\img\\Project_images\\notesapp.webp",
+      "description": "We created a note-taking app using the <b>MERN</b>. Users can save notes and delete unused ones using this modern, fully managed cloud database application.",
+      "year": "2022",
+      "link": "https://github.com/SarthakSKumar/Notes-Web-App"
+    },
     "CAPA Website": {
       "subtitle": "Care and Prevent Anemia",
       "img": "assets\\img\\Project_images\\capawebsite.webp",
@@ -40,7 +47,8 @@
       "img": "assets\\img\\Project_images\\Solving-CSP-using-RAT.webm",
       "description": "Consists of <b>Sudoku</b> and <b>Rat in a Maze</b> problems, solved using backtracking algorithms, with Python and Tkinter framework.",
       "year": "2022",
-      "link": "https://github.com/SarthakSKumar/First-Sem-Project-RAT"
+      "link": "https://github.com/SarthakSKumar/First-Sem-Project-RAT",
+      "video": true
     },
     "Personal Portfolio Website": {
       "subtitle": " ",
