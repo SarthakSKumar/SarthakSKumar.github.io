@@ -8,7 +8,7 @@
       "link": "https://github.com/SarthakSKumar/Phoenix"
     },
     "Notes Web App": {
-      "subtitle": "Simple note taking app",
+      "subtitle": "Simple Note Taking App",
       "img": "assets\\img\\Project_images\\notesapp.webp",
       "description": "We created a note-taking app using the <b>MERN</b>. Users can save notes and delete unused ones using this modern, fully managed cloud database application.",
       "year": "2022",
