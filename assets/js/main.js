@@ -230,8 +230,8 @@ async function fetchData() {
           ? `<div class="card_subtitle">${subtitle}</div>`
           : "";
         const mediaHTML = video
-          ? `<video src=${img} autoplay loop style = "height: 80%"></video>`
-          : `<img class="card_image" src=${img} loading="lazy" />`;
+          ? `<video src=${img} autoplay loop style = "height: 80%" alt = "${description}></video>`
+          : `<img class="card_image" src=${img} loading="lazy" alt = "${description}/>`;
         return `
           <div class="card" data-aos = "fade-up">
               ${mediaHTML}
