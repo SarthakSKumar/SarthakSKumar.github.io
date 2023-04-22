@@ -1,5 +1,33 @@
 {
   "Projects": {
+    "Dash Analytica": {
+      "subtitle": "Election Officer Dashboard",
+      "img": "assets\\img\\Project_images\\dashAnalytica.webp",
+      "description": "Monitor voter turnout, run targetted campaigns in specific areas and estimate capital requirements for area-wise campaigns",
+      "year": "2023",
+      "link": "https://dash-analytica.vercel.app"
+    },
+    "Smart Home Web": {
+      "subtitle": "Smart Home Interface",
+      "img": "assets\\img\\Project_images\\SmartHomeWeb.webp",
+      "description": "Smart Home Automation System that allows users to control and monitor their home appliances and environmental conditions through a web interface",
+      "year": "2023",
+      "link": "https://github.com/SarthakSKumar/Smart-Home-Automation-With-Web-Interface"
+    },
+    "IoTforHire Website": {
+      "subtitle": "Catalogue Website",
+      "img": "assets\\img\\Project_images\\IoTforHire.webp",
+      "description": "Website for renting IoT components on short/long-term basis. Catalog, ordering system, and FAQs included",
+      "year": "2023",
+      "link": "https://github.com/SarthakSKumar/IoTforHire-Website"
+    },
+    "PESU Cafe": {
+      "subtitle": "Snacks at your fingertips",
+      "img": "assets\\img\\Project_images\\pesuCafe.webp",
+      "description": "Designed to provide information on the menu, product availability, and services provided by the PESU cafeteria",
+      "year": "2023",
+      "link": "https://github.com/SarthakSKumar/PESU-Cafe"
+    },
     "Phoenix UAV (VTOL)": {
       "subtitle": "Vertical Take-off & Landing",
       "img": "assets\\img\\Project_images\\Phoenix.webp",
