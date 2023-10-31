@@ -73,6 +73,36 @@ body.light-theme {
   --scroll-thumb-color: hsl(325deg 98% 16%);
 }
 
+/* CSS for the modal */
+.modal {
+  display: none;
+  position: fixed;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.modal-content {
+  background-color: #0f0f0f;
+  position: absolute;
+  border-radius: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+#stayButton {
+  background-color: #fff;
+  padding: 0.5rem 0.4rem;
+  border-radius: 0.6rem;
+  margin-top: 0.8rem;
+  font-weight: 600;
+}
 /* Button Dark/Light */
 .nav_btns {
   display: flex;

@@ -1,5 +1,38 @@
 AOS.init();
 
+// Get the modal and the button elements
+var modal = document.getElementById("myModal");
+var stayButton = document.getElementById("stayButton");
+
+// Function to open the modal
+function openModal() {
+  modal.style.display = "block";
+  var countdown = 10;
+  var countdownElement = document.getElementById("countdown");
+
+  var countdownInterval = setInterval(function () {
+    countdown--;
+    countdownElement.textContent = countdown;
+
+    if (countdown <= 0) {
+      clearInterval(countdownInterval);
+      redirectToNewWebsite();
+    }
+  }, 1000);
+}
+
+// Function to redirect to the new website
+function redirectToNewWebsite() {
+  // window.location.href = "https://sarthakskumar.com";
+}
+
+// Event listener for the "Stay on this page" button
+stayButton.addEventListener("click", function () {
+  modal.style.display = "none";
+});
+
+// Call openModal function to start the countdown when the page loads
+openModal();
 // Formspree code
 const form = document.getElementById("contact-form");
 async function handleSubmit(event) {
