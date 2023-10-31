@@ -23,7 +23,7 @@ function openModal() {
 
 // Function to redirect to the new website
 function redirectToNewWebsite() {
-  // window.location.href = "https://sarthakskumar.com";
+  window.location.href = "https://sarthakskumar.com";
 }
 
 // Event listener for the "Stay on this page" button
