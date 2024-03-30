@@ -1,8 +1,8 @@
 AOS.init();
 
-// Get the modal and the button elements
 var modal = document.getElementById("myModal");
 var stayButton = document.getElementById("stayButton");
+var countdownInterval; // Declare countdownInterval variable globally
 
 // Function to open the modal
 function openModal() {
@@ -10,7 +10,7 @@ function openModal() {
   var countdown = 10;
   var countdownElement = document.getElementById("countdown");
 
-  var countdownInterval = setInterval(function () {
+  countdownInterval = setInterval(function () { // Assign to the global variable
     countdown--;
     countdownElement.textContent = countdown;
 
@@ -29,6 +29,7 @@ function redirectToNewWebsite() {
 // Event listener for the "Stay on this page" button
 stayButton.addEventListener("click", function () {
   modal.style.display = "none";
+  clearInterval(countdownInterval); // Clear the countdownInterval
 });
 
 // Call openModal function to start the countdown when the page loads
